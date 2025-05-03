@@ -1,0 +1,5 @@
+services:
+  resume:
+    image: asia-northeast3-docker.pkg.dev/crafty-isotope-455015-b6/resume-app/resume-app:latest
+    ports:
+      - "80:8000"
